@@ -1,0 +1,5 @@
+<launch>
+    <node name="get_data" pkg="rosbag_data" type="get_data_node">
+        <param name="BAGPATH" type="string" value="/home/xh_cai/Rosbag/20230314/imu_mag_img_2023-03-14-16-50-17.bag"/>
+    </node>
+</launch>
